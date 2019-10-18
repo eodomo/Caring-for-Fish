@@ -1,0 +1,257 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1f2747;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla';
+}
+
+a:link {
+    color: #b3ffff;
+}
+
+a:visited {
+    color: #ffccff;
+}
+
+a:hover {
+    color: #ffffcc;
+}
+
+a:active {
+    color: white;
+}
+
+#main-nav a, h1 {
+    display: block;
+    text-decoration: none;
+}
+#main-nav a {
+    padding: 10px;
+}
+
+#main-nav ul {
+    margin: 0;
+}
+
+#main-nav li {
+    float: left;
+    position: relative;
+    width: 16.66666%;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    background-color: gray;
+}
+
+#main-nav ul ul {
+    position: absolute;
+    left: 0;
+    top: 100%;/
+    display: none;
+    opacity: 0;
+}
+
+#main-nav li li {
+    width: 100%;
+}
+
+#main-nav li:hover > ul {
+    display: block;
+    opacity: 1;
+}
+
+#main-nav li:hover, #main-nav li:hover li {
+    background: rgb(112, 112, 112);
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 10;
+    letter-spacing: 7px;
+    text-align: center;
+    background: black;
+    padding: 10px;
+}
+
+#main-nav ul > li > a, h1 {
+    text-transform: uppercase;
+}
+
+#main-nav li a:link {
+    color: white;
+}
+#main-nav li a:visited {
+    color:white;
+}
+#main-nav li a:hover {
+    color:white;
+}
+#main-nav li a:active {
+    color:white;
+}
+#main-nav ul > li > ul > li:hover {
+    background-color: rgb(95, 95, 95);
+}
+
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+h1 a:visited {
+    color: white;
+}
+h1 a:link {
+    color: white;
+}
+h1 a:hover {
+    color: white;
+}
+h1 a:active {
+    color: white;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+    clear: both;
+    margin-bottom: 15px;
+}
+
+footer hr {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    padding: 0;
+    margin: 3px;
+    padding-left: 30px;
+}
+
+footer a {
+    padding: 0;
+    margin: 3px;
+    padding-left: 30px;
+}
+
+footer ol {
+    list-style-position: inside;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 5;
+    margin: 10px;
+    margin-bottom: 0;
+    padding-left: 20px;
+    text-decoration: bold;
+    text-transform: uppercase;
+}
+
+article p {
+    width: 50%;
+    float: left;
+}
+
+article h3 {
+    padding-left: 30px;
+    margin-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    clear: left;
+}
+
+article ol {
+    padding-left: 50px;
+    margin-top: 30px;
+    clear: left;
+}
+
+h4 {
+    font-size: 16px;
+    clear: left;
+}
+
+ol > li > p {
+    padding-left: 5px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+figure {
+    display: block;
+    width: 30%;
+    float: right;
+    padding-right:30px;
+}
+
+/*
+figure.ice {
+    width: 25%;
+}*/
+
+figurecaption {
+    font-size: 12px;
+}
+
+figurecaption, figcaption {
+    padding-left: 5px;
+}
+
+form {
+    margin-left: 20px;
+    width: 60%;
+    border: none;
+}
+
+form p {
+    padding-left: 10px;
+    margin: 0;
+}
+
+label {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    margin-left: 10px;
+    width: 80%;
+}
+
+input {
+    margin-left: 10px;
+}
+
+button {
+    clear: left;
+    float: left;
+    margin-left: 45px;
+}
+
+#videoControls {
+    clear: right;
+    float: right;
+    margin-right:80px;
+    margin-bottom:20px;
+}
+video{
+    float: right;
+    margin-right: 40px;
+}
